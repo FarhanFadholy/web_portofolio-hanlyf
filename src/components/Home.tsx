@@ -12,7 +12,7 @@ import SkillIcons from "./SkillIcons";
 export default function Homepage() {
   return (
     <>
-      {/* SOCIAL BAR (React Icons) */}
+      {/* SOCIAL BAR */}
       <div
         className="hidden md:flex fixed top-1/2 -translate-y-1/2 right-0
              bg-white/10 text-white 
@@ -81,19 +81,18 @@ export default function Homepage() {
                 together!
               </p>
               <a
-                href="/cv.pdf"
+                href="/certificates/CV-FARHANFADHOLY.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 text-white text-xs rounded-lg backdrop-blur-sm border border-white/20 transition-all duration-300"
               >
-                View CV
+                Download CV
               </a>
             </div>
           </div>
 
-          {/* Desktop Layout - Original */}
+          {/* Desktop */}
           <div className="hidden md:flex flex-col items-start gap-0">
-            {/* Text at the top - left aligned */}
             <div className="text-left w-full max-w-xl relative z-10">
               <p className="text-white/70 text-lg mb-3">
                 Hi, i'm Farhan Fadholy 👋
@@ -139,8 +138,6 @@ export default function Homepage() {
               </div>
             </div>
           </div>
-
-          {/* SKILL ICONS - Below mockup */}
           <SkillIcons />
         </div>
       </section>
